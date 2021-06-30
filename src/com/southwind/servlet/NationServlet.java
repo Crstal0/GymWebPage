@@ -79,9 +79,5 @@ public class NationServlet extends HttpServlet {
             case "add":
                 request.getRequestDispatcher("add.jsp").forward(request,response);
         }
-
-
-
-
     }
 }
