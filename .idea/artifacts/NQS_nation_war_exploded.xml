@@ -1,0 +1,18 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="NQS_nation:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/NQS_nation_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="NQS_nation/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="NQS_nation" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="$USER_HOME$/Desktop/mysql-connector-java-8.0.21/mysql-connector-java-8.0.21.jar" />
+          <element id="file-copy" path="$USER_HOME$/Desktop/jakarta-taglibs-standard-1.1.2/lib/jstl.jar" />
+          <element id="file-copy" path="$USER_HOME$/Desktop/jakarta-taglibs-standard-1.1.2/lib/standard.jar" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
